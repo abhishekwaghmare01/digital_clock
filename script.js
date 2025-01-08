@@ -19,7 +19,7 @@ const showTime = ()=>{
     // console.log("hour"+ hr + "min"+ min + "sec "+ sec);
     time.innerHTML = `${hr} : ${min} : ${sec}`;
 
-    
+    timeFormat.innerHTML = hr>12 ? "PM" : "AM";
 
     
 }
